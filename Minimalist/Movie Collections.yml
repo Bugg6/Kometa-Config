@@ -10,7 +10,7 @@ templates: ### this is the template for building a dynamic collection
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release ### sort option for the collection
-    minimum_items: 2 ### adjust this to the min number of movies for a collection to be built 
+    minimum_items: 3 ### adjust this to the min number of movies for a collection to be built 
     delete_below_minimum: true  ### if a movie is deleted from your library and the collection is now below the min this option will delete the collection
 
 collections:
